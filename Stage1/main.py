@@ -26,7 +26,7 @@ def get_info():
         return jsonify({"status": "Error", "message": "UTC time validation failed"}), 400
 
     # GitHub URL of the file being run
-    github_file_url = 'https://github.com/Abunuman/HNGXInternship/blob/main/Stage1/app.py'  # Replace with your GitHub URL
+    github_file_url = 'https://github.com/Abunuman/HNGXInternship/blob/main/Stage1/main.py'  # Replace with your GitHub URL
 
     # GitHub URL of the full source code
     github_source_url = 'https://github.com/Abunuman/HNGXInternship'  # Replace with your GitHub URL
